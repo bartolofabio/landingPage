@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body {
+  background: #303033;
+  font-family: 'Roboto', monospace;
+  justify-content: center;
+}
+
+.container {
+    background: url('imagens/bg.png') no-repeat;
+    background-color: white;
+    color: #1C1C1C;
+    margin: 44px;
+    border-radius: 10px;
+}
+
+.container .inicial {
+  height: 600px;
+  margin-top: 10px;;
+  padding: 32px;
+	background-size: cover;
+  color: #1C1C1C;
+}
+
+
+.container .meio {
+  height: 500px;
+  background-size: cover;
+  color: #1C1C1C;
+}
+
+.inicial p {
+    float: right;
+    width: 48%;
+    font-size: 20px;
+    margin-top: -30px;    
+}
+
+.meio p {
+  float: left;
+  width: 55%;
+  font-size: 17px;
+  margin-top: 22px;
+  margin-left: 30px;
+   
+}
+
+.meio h2 {
+  float: left;
+  width: 55%;
+  font-size: 20px;
+  margin-top: 2px;
+  margin-left: 30px;
+   
+}
+
+.container h1 {
+  float: left;
+  width: 60%;
+  padding: 20px 70px;
+  margin-top: 20px;
+  font-size: 70px;
+  color: #ef653c;
+}
+
+#titulo {
+  color: #1C1C1C;
+  margin-left: 32%;
+}
+
+#subtitulo {
+  color: #1C1C1C;
+  float: center;
+  width: 55%;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+
+
+
+/* CSS formulário */
+
+fieldset {
+  border: 0;
+  margin-left: -1%;
+}
+
+.campo {
+  margin-left: 21%;
+}
+
+
+.campo label {
+  margin-bottom: 0.2em;
+  display: block;
+}
+
+.campo input[type="checkbox"] {
+  display: inline;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo textarea {
+  padding: 0.2em;
+  border: 1px solid #FFA500;
+  display: block;
+}
+
+.campo select option {
+  padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+  background: #F0F8FF;
+}
+
+.botao {
+  font-size: 15px;
+  background: white;
+  border: 0;
+  margin-bottom: 1em;
+  padding: 0.2em 0.6em;
+  position: absolute;
+  top: 281%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  border-radius: 5%;
+}
+
+.botao:hover {
+  background: #F0F8FF;
+}
+
+/* Fim do CSS formulário */
